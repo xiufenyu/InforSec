@@ -1,0 +1,6 @@
+Encryption VS Signature
+
+|                | **Sender**                             | **Receiver**                           | **Goal**                                                                                                                                                            |   |
+|----------------|----------------------------------------|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|
+| **Encryption** | Use  Public Key  to  encrypt  message  | Use  Private Key  to  decrypt  message | Achieve **Credentiality**. The message is not seen (known/intercepted) by third-parties during transmission, only the sender and receiver know what is transmitted. |   |
+| **Signature**  | Use  Private Key  to  encrypt  message | Use  Public Key  to  decrypt  message  | Achieve **Integrity**. Everyone with the public key can see the message, but they cannot change/alter/tamper it, because they don't have the  Private Key.          |   |
